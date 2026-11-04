@@ -21,8 +21,6 @@ phases:
   post_build:
     commands:
       - echo "Build complete - $(ls -la output/)"
-      
-
 artifacts:
   files:
     - '**/*'
